@@ -4,4 +4,9 @@ export const staticRouter = [
     name: "login",
     component: () => import("@/views/login.vue"),
   },
+  {
+    path: "/",
+    name: "welcome",
+    component: () => import("@/views/welcome.vue"),
+  },
 ];
